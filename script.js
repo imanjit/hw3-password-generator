@@ -31,7 +31,7 @@ function writePassword() {
                 result += characters[random];
             }
         }
-        document.getElementById("password").textContent = result;
+        document.querySelector("#password").textContent = result;
     }
 };
 generateBtn.addEventListener("click", writePassword);
