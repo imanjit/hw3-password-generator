@@ -1,3 +1,8 @@
+var uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("")
+var lowercase = "abcdefghijklmnopqrstuvwxyz".split("")
+var numbers = "0123456789".split("")
+var symbols = "!@#$%^&*()_-=+{[]}\\|:;'\"<>,.?/".split("")
+
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 
