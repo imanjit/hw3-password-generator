@@ -26,7 +26,7 @@ function writePassword() {
             Array.prototype.push.apply(characters, specialChars);
         }
         else {
-            for(var i = 0; i < length; i++) {
+            for(var i = 0; i < charLength; i++) {
                 var random = Math.floor(Math.random() * characters.length);
                 result += characters[random];
             }
