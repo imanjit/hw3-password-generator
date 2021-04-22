@@ -15,6 +15,6 @@ When the user presses the "Generate Password" button, prompt the user to select 
 * Numbers
 * Special Characters
 
-## Challenges
+## Current Challenges
 
-Currently the biggest challenge is getting the password to display. 
+Find a way to cancel function if user clicks cancel on prompts. Currently the function keeps running if user clicks cancel, which as a result displays undefined in the password box. 

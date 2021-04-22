@@ -34,4 +34,5 @@ function writePassword() {
         document.querySelector("#password").textContent = result;
     }
 };
+
 generateBtn.addEventListener("click", writePassword);
