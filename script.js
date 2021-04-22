@@ -25,12 +25,12 @@ function writePassword() {
         if (confirm("Include special characters?")) {
             Array.prototype.push.apply(characters, specialChars);
         }
-        else {
-            for(var i = 0; i < charLength; i++) {
+            for (var i = 0; i < charLength; i++) {
                 var random = Math.floor(Math.random() * characters.length);
                 result += characters[random];
             }
-        }
+            console.log(result);
+
         document.querySelector("#password").textContent = result;
     }
 };
